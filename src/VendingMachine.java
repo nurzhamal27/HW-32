@@ -36,7 +36,7 @@ public class VendingMachine {
                 }
             }
 
-            String input = scanner.nextLine();
+            String input = scanner.nextLine().toLowerCase();
             if (input.equals("a")) {
                 System.out.println("Enter the number of coins you want to throw:");
                 coins += scanner.nextInt();
